@@ -221,7 +221,7 @@ Pas de consigne particulière sur cet exercice : à toi de réfléchir en mode R
 - prend en argument un personnage et renvoie la liste des meutriers potentiels avec un score pour chaque (ou le score est une échelle arbitraire qui dépendra de ton modèle).
 - renvoie
   - si le personnage n'est pas mort : une liste vide
-  - si le personnage est vivant : une liste de suspects identifiés par leur nom et leur score (plus le score est élevé, plus cela veut dire que le perso est susceptible d'avoir tué le premier personnage).
+  - si le personnage est mort : une liste de suspects identifiés par leur nom et leur score (plus le score est élevé, plus cela veut dire que le perso est susceptible d'avoir tué le premier personnage).
 
 
 ```js
